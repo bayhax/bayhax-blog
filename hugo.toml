@@ -1,6 +1,6 @@
 baseURL = 'https://bayhax-blog.pages.dev/'
 languageCode = 'zh-cn'
-title = '湾区极客'
+title = 'bayhax'
 theme = "PaperMod"
 
 # 网站参数配置
@@ -8,7 +8,7 @@ theme = "PaperMod"
   # 网站描述
   description = "分享技术与生活的个人博客"
   # 作者信息
-  author = "湾区极客"
+  author = "bayhax"
   # 默认主题模式 (auto, light, dark)
   defaultTheme = "auto"
   # 是否显示目录
