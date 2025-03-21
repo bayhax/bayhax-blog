@@ -1,0 +1,48 @@
+baseURL = 'https://bayhax-blog.pages.dev/'
+languageCode = 'zh-cn'
+title = '湾区极客'
+theme = "PaperMod"
+
+# 网站参数配置
+[params]
+  # 网站描述
+  description = "分享技术与生活的个人博客"
+  # 作者信息
+  author = "湾区极客"
+  # 默认主题模式 (auto, light, dark)
+  defaultTheme = "auto"
+  # 是否显示目录
+  ShowToc = true
+  # 是否自动收起目录
+  TocOpen = false
+  # 显示阅读时间
+  ShowReadingTime = true
+  # 显示分享按钮
+  ShowShareButtons = true
+  # 显示文章字数统计
+  ShowWordCount = true
+  # 显示代码复制按钮
+  ShowCodeCopyButtons = true
+  
+# 主菜单配置
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 40
