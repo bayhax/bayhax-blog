@@ -24,6 +24,25 @@ theme = "PaperMod"
   # 显示代码复制按钮
   ShowCodeCopyButtons = true
   
+  # 首页信息参数（添加此部分）
+  [params.homeInfoParams]
+    Title = "你好 👋"
+    Content = """
+    欢迎来到我的博客!
+
+    - 这是一个分享技术与生活的个人空间
+    - 我会定期更新关于编程、技术和其他有趣话题的文章
+    """
+  
+  # 社交图标链接
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/bayhax"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:whlbayhax@gmail.com"
+  
 # 主菜单配置
 [menu]
   [[menu.main]]
