@@ -65,3 +65,15 @@ theme = "PaperMod"
     name = "关于"
     url = "/about/"
     weight = 40
+
+# Markdown渲染配置
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允许渲染HTML
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
